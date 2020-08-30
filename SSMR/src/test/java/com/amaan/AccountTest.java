@@ -14,6 +14,9 @@ import java.util.List;
  * 佛祖保佑，永无BUG
  * @author AMAAN
  * SSMR
+ * ApplicationContext context = new ClassPathXmlApplicationContext(".xml");
+ * HelloService helloService = (HelloService) context.getBean("helloService");
+ * helloService.hello();
  * 2020-08-28 11:11
  */
 //必须junit4.12以上
