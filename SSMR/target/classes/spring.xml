@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+         https://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+         https://www.springframework.org/schema/context/spring-context.xsd">
+    <!--把对象的创建交给spring来管理-->
+    <bean id="helloService" class="com.amaan.service.impl.HelloServiceImpl">
+        <constructor-arg value="#{T(System).out}"/>
+        <!-- setter注入
+        <property name="output" value="#{T(System.out)}">
+            <list> <map> <set> <props> <array>
+        </property>
+        -->
+    </bean>
+    <!--通过注解Component-->
+    <!--   <bean id="accountService" class="com.amaan.service.impl.AccountServiceImpl"/>
+       <bean id="accountDao" class="com.amaan.dao.impl.AccountDaoImpl"/>-->
+   <!--    <bean id="minstrel" class="com.amaan.aop.Minstrel">
+           <constructor-arg value="#{T(System).out}"/>
+       </bean>
+   -->
+    <!--定义切点-->
+<!--    <aop:config>
+        <aop:aspect ref="minstrel">
+            <aop:pointcut id="sing" expression="execution(* *.sing(..))"/>
+            <aop:before pointcut-ref="sing"
+                    method="sing"/>
+        </aop:aspect>
+    </aop:config>-->
+    <!-- 开启注解扫描 -->
+    <context:component-scan base-package="com.amaan"/>
+    <aop:aspectj-autoproxy/>
+    <!--  -->
+</beans>
