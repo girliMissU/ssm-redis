@@ -18,8 +18,8 @@ import org.springframework.transaction.annotation.Transactional;
  * SSMR
  * 2020-08-30 20:38
  */
-@Service
-public class UserRedPacketImpl implements UserRedPacketService {
+@Service("userRedPacketService")
+public class UserRedPacketServiceImpl implements UserRedPacketService {
 
     @Autowired
     private UserRedPacketDao userRedPacketDao;
@@ -41,6 +41,7 @@ public class UserRedPacketImpl implements UserRedPacketService {
     public int grabRedPacket(Long redPacketId, Long userId) {
         //获取红包信息
         RedPacket redPacket = redPacketDao.getRedPacket(redPacketId);
+        System.out.println(redPacket);
         //当前小库存大于零
         if (redPacket.getStock()>0){
             redPacketDao.decreaseRedPacket(redPacketId);
@@ -50,6 +51,7 @@ public class UserRedPacketImpl implements UserRedPacketService {
             userRedPacket.setUserId(userId);
             userRedPacket.setAmount(redPacket.getUnitAmount());
             userRedPacket.setNote("抢红包"+redPacketId);
+            System.out.println(userRedPacket);
             //插入抢红包信息
             int result = userRedPacketDao.grabRedPacket(userRedPacket);
             return result;

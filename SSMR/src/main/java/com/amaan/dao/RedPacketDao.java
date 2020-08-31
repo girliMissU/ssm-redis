@@ -16,11 +16,11 @@ import org.springframework.stereotype.Repository;
 public interface RedPacketDao {
     /**
      * 获取红包信息
-     * select id, user_id as userId, amount, send_date as sendDate, total, unit_amount as unitAmount, stock, version, note from T_RED_PACKET where id=#{id}
+     *
      * @param id 红包id
      * @return 红包具体信息
      */
-    @Select("select id, user_id, amount, send_date, total, unit_amount, stock, version, note from T_RED_PACKET where id=#{id}")
+    @Select("select id, user_id as userId, amount, send_date as sendDate, total, unit_amount as unitAmount, stock, version, note from T_RED_PACKET where id=#{id}")
     public RedPacket getRedPacket(Long id);
 
     /**

@@ -1,5 +1,7 @@
 package com.amaan.pojo;
 
+import org.apache.ibatis.type.Alias;
+
 import java.io.Serializable;
 import java.sql.Timestamp;
 
@@ -10,6 +12,7 @@ import java.sql.Timestamp;
  * SSMR
  * 2020-08-30 19:59
  */
+@Alias("userRedPacket")
 public class UserRedPacket implements Serializable {
 
     private Long id;

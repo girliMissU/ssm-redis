@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
  * SSMR
  * 2020-08-30 20:21
  */
-@Service
+@Service("redPacketService")
 public class RedPacketServiceImp implements RedPocketService {
 
     @Autowired

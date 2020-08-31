@@ -1,7 +1,6 @@
 package com.amaan.dao;
 
 import com.amaan.pojo.UserRedPacket;
-import org.apache.ibatis.annotations.Insert;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -19,7 +18,6 @@ public interface UserRedPacketDao {
      * @param userRedPacket 抢红包信息
      * @return 影响记录条数
      */
-    @Insert("")
     public int grabRedPacket(UserRedPacket userRedPacket);
 
 }

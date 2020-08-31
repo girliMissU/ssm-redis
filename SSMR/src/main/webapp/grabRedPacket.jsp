@@ -11,11 +11,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>参数</title>
-    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             //模拟30000个异步请求，进行并发
-            var max = 30000;
+            var max = 2000;
             for(var i=1; i<max; i++){
                 $.post({
                    url:"./userRedPacket/grabRedPacket.do?redPacketId=1&userId="+i,
