@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSMR:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd2d4ab-2b47-4113-8455-4996dd67f184" name="Default Changelist" comment="" />
+    <list default="true" id="c70076b9-0d8d-4ded-ab5b-806ea6dde0a2" name="Default Changelist" comment="user grab red packet without concurrent control">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/controller/UserRedPacketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/controller/UserRedPacketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/dao/RedPacketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/dao/RedPacketDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/dao/UserRedPacketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/dao/UserRedPacketDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/pojo/UserRedPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/pojo/UserRedPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/RedPacketServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/RedPacketServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/UserRedPacketImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/UserRedPacketServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/amaan/dao/UserRedPackDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/amaan/dao/UserRedPacketDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/red_packet_sql/RED_PACKET.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/red_packet_sql/RED_PACKET.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/grabRedPacket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/grabRedPacket.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/classes/com/amaan/service/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/classes/com/amaan/service/impl/HelloServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.AccountTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.AccountTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.HelloServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.practice.TestObserver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.practice.TestObserver.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.amaan.AccountTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.amaan.AccountTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.amaan.HelloServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.amaan.practice.TestObserver.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.amaan.practice.TestObserver.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,61 +57,71 @@
     <expand />
     <select />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\Maven\repository" />
         <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1Vb9Cu7EhIVx7A7FybkJlLGKWXz" />
+  <component name="ProjectId" id="1go3QvZjizLtNcj9cgxZxzO4OVi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31931818" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEAProject\SpringTest\src\main\resources\com\amaan\dao" />
-      <recent name="D:\IDEAProject\SpringTest\src\main\resources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.spring.inaction" />
-      <recent name="com.amaan" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEAProject\SpringTest\src\main\webapp\WEB-INF" />
-      <recent name="D:\IDEAProject\SpringTest\src\main\java\com\amaan\practice\config" />
-      <recent name="D:\IDEAProject\SpringTest\src\main\java\com\amaan\practice\jdbc" />
-      <recent name="D:\IDEAProject\SpringTest\src\main\resources" />
+      <recent name="D:\repository\ssm-redis\SSMR\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,156 +136,239 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.testUpdate">
-    <configuration name="TestJdkProxy" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amaan.practice.proxy.TestJdkProxy" />
-      <module name="SSMR" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=utf-8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amaan.practice.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Tomcat Server.grabRedPacket.jsp (2)">
+    <configuration name="grabRedPacket.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/WEB-INF/jsp/grabRedPacket.jsp" />
+      <deployment>
+        <artifact name="SSMR:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSMR_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMR:war" />
+        </option>
       </method>
     </configuration>
-    <configuration name="AccountTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSMR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amaan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amaan" />
-      <option name="MAIN_CLASS_NAME" value="com.amaan.AccountTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="grabRedPacket.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/WEB-INF/jsp/grabRedPacket.jsp" />
+      <deployment>
+        <artifact name="SSMR:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSMR_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="grabRedPacket_jsp_(2)_SSMR" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMR:war" />
+        </option>
       </method>
     </configuration>
-    <configuration name="AccountTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSMR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amaan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amaan" />
-      <option name="MAIN_CLASS_NAME" value="com.amaan.AccountTest" />
-      <option name="METHOD_NAME" value="testFind" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="grabRedPacket.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/WEB-INF/jsp/grabRedPacket.jsp" />
+      <deployment>
+        <artifact name="SSMR:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSMR_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="grabRedPacket_jsp_SSMR" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61356" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMR:war" />
+        </option>
       </method>
     </configuration>
-    <configuration name="AccountTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSMR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amaan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amaan" />
-      <option name="MAIN_CLASS_NAME" value="com.amaan.AccountTest" />
-      <option name="METHOD_NAME" value="testFindByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSMR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amaan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amaan" />
-      <option name="MAIN_CLASS_NAME" value="com.amaan.AccountTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSMR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amaan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amaan" />
-      <option name="MAIN_CLASS_NAME" value="com.amaan.AccountTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.TestJdkProxy" />
-      <item itemvalue="JUnit.AccountTest.test" />
-      <item itemvalue="JUnit.AccountTest.testFindByName" />
-      <item itemvalue="JUnit.AccountTest.testFind" />
-      <item itemvalue="JUnit.AccountTest.testSave" />
-      <item itemvalue="JUnit.AccountTest.testUpdate" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest.testUpdate" />
-        <item itemvalue="JUnit.AccountTest.testSave" />
-        <item itemvalue="JUnit.AccountTest.testFindByName" />
-        <item itemvalue="JUnit.AccountTest.testFind" />
-        <item itemvalue="JUnit.AccountTest.test" />
+        <item itemvalue="Tomcat Server.grabRedPacket.jsp (2)" />
+        <item itemvalue="Tomcat Server.grabRedPacket.jsp (1)" />
+        <item itemvalue="Tomcat Server.grabRedPacket.jsp" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@88782530" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8fd2d4ab-2b47-4113-8455-4996dd67f184" name="Default Changelist" comment="" />
-      <created>1577510802239</created>
+      <changelist id="c70076b9-0d8d-4ded-ab5b-806ea6dde0a2" name="Default Changelist" comment="" />
+      <created>1598767104644</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577510802239</updated>
-      <workItem from="1577510803524" duration="37048000" />
-      <workItem from="1577796182922" duration="425000" />
-      <workItem from="1577796621709" duration="3085000" />
-      <workItem from="1598503659521" duration="3614000" />
-      <workItem from="1598508456299" duration="33472000" />
-      <workItem from="1598698682258" duration="13116000" />
-      <workItem from="1598765000013" duration="3000" />
-      <workItem from="1598765040552" duration="363000" />
+      <updated>1598767104644</updated>
+      <workItem from="1598767106024" duration="506000" />
+      <workItem from="1598772967825" duration="18101000" />
     </task>
+    <task id="LOCAL-00001" summary="remove redundant hellos">
+      <created>1598775281838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775281838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="user grab red packet without concurrent control">
+      <created>1598794092009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598794092009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="HEAD..origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove redundant hellos" />
+    <MESSAGE value="user grab red packet without concurrent control" />
+    <option name="LAST_COMMIT_MESSAGE" value="user grab red packet without concurrent control" />
   </component>
 </project>

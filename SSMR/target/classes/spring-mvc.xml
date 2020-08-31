@@ -13,7 +13,9 @@
     <mvc:annotation-driven>
         <mvc:message-converters>
             <bean class="org.springframework.http.converter.StringHttpMessageConverter"/>
-            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+                <property name="supportedMediaTypes" value="application/json"/>
+            </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
     <!-- 自动扫描  @Controller-->
