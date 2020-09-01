@@ -15,10 +15,11 @@
     <script type="text/javascript">
         $(document).ready(function () {
             //模拟30000个异步请求，进行并发
-            var max = 2000;
+            var max = 3;
             for(var i=1; i<max; i++){
                 $.post({
                    url:"./userRedPacket/grabRedPacket.do?redPacketId=1&userId="+i,
+                   //  url:"./userRedPacket/grabRedPacketByRedis.do?redPacketId=5&userId="+i,
                    success:function (result) {
                        // console.log(result);
                    }

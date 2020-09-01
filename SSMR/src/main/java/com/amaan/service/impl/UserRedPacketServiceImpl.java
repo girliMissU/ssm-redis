@@ -49,7 +49,7 @@ public class UserRedPacketServiceImpl implements UserRedPacketService {
             +"if stock == 0 then return 2 end \n"
             +"return 1 \n";
 
-    //缓存Lua脚本后，使用该变量保存Redist返回的32位SHA1编码，用它去执行缓存的Lua脚本
+    /* 缓存Lua脚本后，使用该变量保存Redist返回的32位SHA1编码，用它去执行缓存的Lua脚本 */
     private String sha1 = null;
 
     //失败
@@ -134,6 +134,7 @@ public class UserRedPacketServiceImpl implements UserRedPacketService {
      */
     @Override
     public Long grabRedPacketByRedis(Long redPacketId, Long userId) {
+        System.out.println("service");
         //当前抢红包用户和日期信息
         String args = userId+"-"+System.currentTimeMillis();
         Long result = null;

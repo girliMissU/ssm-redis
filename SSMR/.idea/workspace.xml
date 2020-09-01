@@ -7,20 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c70076b9-0d8d-4ded-ab5b-806ea6dde0a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amaan/service/RedisRedPacketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/RedisRedPacketServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/red_packet_script/red_packet.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/controller/UserRedPacketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/controller/UserRedPacketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/dao/RedPacketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/dao/RedPacketDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/service/UserRedPacketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/service/UserRedPacketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/RedisRedPacketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/RedisRedPacketServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/UserRedPacketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaan/service/impl/UserRedPacketServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/red_packet_sql/RED_PACKET.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/red_packet_script/RED_PACKET.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/grabRedPacket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/grabRedPacket.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/classes/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/classes/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMR-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.AccountTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.AccountTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.practice.TestObserver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.amaan.practice.TestObserver.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.amaan.AccountTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.amaan.AccountTest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -289,7 +293,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598767104644</updated>
       <workItem from="1598767106024" duration="506000" />
-      <workItem from="1598772967825" duration="32529000" />
+      <workItem from="1598772967825" duration="37641000" />
     </task>
     <task id="LOCAL-00001" summary="remove redundant hellos">
       <created>1598775281838</created>
@@ -312,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598855902351</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="user grab red packet with lock and redis">
+      <created>1598876853801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598876853801</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,10 +368,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove redundant hellos" />
     <MESSAGE value="user grab red packet without concurrent control" />
-    <option name="LAST_COMMIT_MESSAGE" value="user grab red packet without concurrent control" />
+    <MESSAGE value="user grab red packet with lock and redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="user grab red packet with lock and redis" />
   </component>
 </project>

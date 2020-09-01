@@ -18,6 +18,7 @@ D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\service\impl\AccountService
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\dao\RedPacketDao.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\practice\proxy\MyInterceptor.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\practice\jdbc\AccountDaoImpl.java
+D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\service\RedisRedPacketService.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\practice\observer\JingDongObserver.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\practice\observer\TaobaoObserver.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\pojo\Account.java
@@ -26,6 +27,7 @@ D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\controller\UserRedPacketCon
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\pojo\RedPacket.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\service\RedPocketService.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\practice\proxy\JdkProxy.java
+D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\service\impl\RedisRedPacketServiceImpl.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\practice\proxy\MyInterceptor2.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\practice\observer\ProductList.java
 D:\repository\ssm-redis\SSMR\src\main\java\com\amaan\service\impl\UserRedPacketServiceImpl.java

@@ -38,9 +38,10 @@ public class UserRedPacketController {
         return resMap;
     }
 
-    @RequestMapping(value = "/grabRedPacketByRedis")
+    @RequestMapping(value = "/grabRedPacketByRedis", method = RequestMethod.POST)
     @ResponseBody
     public Map<String,Object> grabRedPacketByRedis(@RequestParam("redPacketId") Long redPacketId ,@RequestParam("userId") Long userId){
+        System.out.println("controller"+redPacketId+"__"+userId);
         Map<String,Object> resMap = new HashMap<>(2);
         Long result = userRedPacketService.grabRedPacketByRedis(redPacketId,userId);
         boolean flag = result>0;
