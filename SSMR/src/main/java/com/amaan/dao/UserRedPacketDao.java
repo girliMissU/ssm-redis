@@ -18,6 +18,5 @@ public interface UserRedPacketDao {
      * @param userRedPacket 抢红包信息
      * @return 影响记录条数
      */
-    public int grabRedPacket(UserRedPacket userRedPacket);
-
+    int grabRedPacket(UserRedPacket userRedPacket);
 }

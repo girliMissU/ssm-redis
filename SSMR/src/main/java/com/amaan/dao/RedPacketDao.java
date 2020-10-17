@@ -22,15 +22,17 @@ public interface RedPacketDao {
      * @return 红包具体信息
      */
     @Select("select id, user_id as userId, amount, send_date as sendDate, total, unit_amount as unitAmount, stock, version, note from T_RED_PACKET where id=#{id}")
-    public RedPacket getRedPacket(@Param("id") Long id);
+    RedPacket getRedPacket(@Param("id") Long id);
 
     /**
      * 扣减红包数
+     * 由于设置每个红包金额相同，故不需要扣减红包金额
+     * 如果是拼手气，抢到的金额是在拆红包式才生成，需要更新剩余金额
      * @param id 红包id
      * @return 更新记录条数
      */
     @Update("update T_RED_PACKET set stock=stock-1 where id = #{id}")
-    public int decreaseRedPacket(@Param("id") Long id);
+    int decreaseRedPacket(@Param("id") Long id);
 
     /**
      * 通过版本号扣减抢红包，每更新一次，版本增1，并对版本号进行判断
@@ -39,5 +41,5 @@ public interface RedPacketDao {
      * @return 更新记录条数
      */
     @Update("update T_RED_PACKET set stock=stock-1, version=version+1 where id = #{id} and version = #{version}")
-    public int decreaseRedPacketForVersion(@Param("id") Long id, @Param("version") int version);
+    int decreaseRedPacketForVersion(@Param("id") Long id, @Param("version") int version);
 }

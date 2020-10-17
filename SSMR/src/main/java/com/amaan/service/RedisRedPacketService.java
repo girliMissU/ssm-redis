@@ -13,5 +13,5 @@ public interface RedisRedPacketService {
      * @param redPacketId 抢红包编号
      * @param unitAmount 红包金额
      */
-    public void saveUserRedPacketByRedis(Long redPacketId, Double unitAmount);
+    void saveUserRedPacketByRedis(Long redPacketId, Double unitAmount);
 }

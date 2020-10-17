@@ -24,7 +24,8 @@ create table T_RED_PACKET(
     amount decimal(16,2) not null,
     grab_time timestamp not null,
     note varchar(256) null,
-    primary key clustered (id)
+    primary key clustered (id),
+    FOREIGN KEY (red_packet_id) REFERENCES T_RED_PACKET (id)
  );
 
  insert into T_RED_PACKET(user_id, amount, send_date, total, unit_amount, stock, note)

@@ -18,5 +18,5 @@ if stock == 0 then return 2 end
 return 1
 
 --测试前先在Redis上添加红包信息，是命令，不是脚本，要在数据库也建立对应的记录
-hset red_packet_5 stock 20000
-hset red_packet_5 unit_amount 10
+--hset red_packet_5 stock 20000
+--hset red_packet_5 unit_amount 10

@@ -15,9 +15,18 @@ import java.sql.Timestamp;
 @Alias("userRedPacket")
 public class UserRedPacket implements Serializable {
 
+    /**
+     * primary key
+     */
     private Long id;
+    /**
+     * 红包编号，
+     */
     private Long redPacketId;
     private Long userId;
+    /**
+     * 抢到的红包金额
+     */
     private Double amount;
     private Timestamp grabTime;
     private String note;

@@ -57,6 +57,7 @@ public class UserRedPacketServiceImpl implements UserRedPacketService {
 
     /**
      * 保存抢红包信息
+     * 不用所得情况下，高并发场景会产生超发现象，即数据不一致问题
      * @param redPacketId 红包编号
      * @param userId      抢红包用户编号
      * @return 影响记录条数
@@ -127,14 +128,14 @@ public class UserRedPacketServiceImpl implements UserRedPacketService {
 
     /**
      * 通过redis抢红包
-     *
+     * 待修改
      * @param redPacketId
      * @param userId
      * @return 0-没有库存，失败；1-成功，且不是最后一个红包；2-成功，且是最后一个红包
      */
     @Override
     public Long grabRedPacketByRedis(Long redPacketId, Long userId) {
-        System.out.println("service");
+//        System.out.println("service");
         //当前抢红包用户和日期信息
         String args = userId+"-"+System.currentTimeMillis();
         Long result = null;
